@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{8648e6ff-b061-4656-8552-3c2c001a7a18}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="llmg_sticks_LOD0.gltf"/>
+    <LOD minSize="0.078125" ModelFile="llmg_sticks_LOD1.gltf"/>
+  </LODS>
+</ModelInfo>

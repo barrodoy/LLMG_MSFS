@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="1.0.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>Meggido Airstrip</Title>
+		<Manufacturer>Israeli Flight Sim Developers</Manufacturer>
+		<Creator>Bar Rodoy and Niv Tesler</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\ifsd-llmg-airport\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\ifsd-llmg-airport\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="LLMG_materials">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\MaterialLibs\LLMG_materials\</AssetDir>
+			<OutputDir>MaterialLibs\LLMG_materials\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="LLMG_objects">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\modelLib\</AssetDir>
+			<OutputDir>Scenery/Global/Scenery\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MeggidoServices">
+			<Type>Service</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Services\</AssetDir>
+			<OutputDir>AirportServices\LLMG\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="airport">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\data\</AssetDir>
+			<OutputDir>scenery\world\scenery\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

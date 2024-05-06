@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{ec7b79fa-9b1f-460a-b92e-db6235901b6f}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="telemthrush_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="telemthrush_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="telemthrush_LOD2.gltf"/>
+  </LODS>
+</ModelInfo>

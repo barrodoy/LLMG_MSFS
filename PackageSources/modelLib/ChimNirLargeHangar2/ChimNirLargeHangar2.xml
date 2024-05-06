@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{892e6f9e-c883-4308-be4b-17926ab11f87}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="ChimNirLargeHangar2_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="ChimNirLargeHangar2_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="ChimNirLargeHangar2_LOD2.gltf"/>
+  </LODS>
+</ModelInfo>

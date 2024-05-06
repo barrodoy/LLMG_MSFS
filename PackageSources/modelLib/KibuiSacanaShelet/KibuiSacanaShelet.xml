@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{08d095cf-3aa9-44c3-845b-e709cc14547f}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="KibuiSacanaShelet_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="KibuiSacanaShelet_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="KibuiSacanaShelet_LOD2.gltf"/>
+    <LOD minSize="1.5625" ModelFile="KibuiSacanaShelet_LOD3.gltf"/>
+  </LODS>
+</ModelInfo>

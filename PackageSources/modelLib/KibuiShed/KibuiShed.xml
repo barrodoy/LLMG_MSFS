@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{23143eed-2ab0-42a4-9eb9-0754b821b94b}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="KibuiShed_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="KibuiShed_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="KibuiShed_LOD2.gltf"/>
+    <LOD minSize="1.5625" ModelFile="KibuiShed_LOD3.gltf"/>
+  </LODS>
+</ModelInfo>

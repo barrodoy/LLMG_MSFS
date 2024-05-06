@@ -1,0 +1,170 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3536,
+      "type": "VEC3",
+      "min": [
+        0.0,
+        -0.33838000893592834,
+        -8.0
+      ],
+      "max": [
+        6.0,
+        0.0,
+        7.3476381229342635E-16
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3536,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 3536,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 3600,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "occlusionTexture": {
+        "index": 1
+      },
+      "alphaMode": "BLEND",
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "felix_reshet_tzel"
+    },
+    {
+      "source": 1,
+      "name": "felix_reshet_tzel_comp"
+    }
+  ],
+  "images": [
+    {
+      "uri": "felix_reshet_tzel.png"
+    },
+    {
+      "uri": "felix_reshet_tzel_comp.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 14400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14400,
+      "byteLength": 42432,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 56832,
+      "byteLength": 42432,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 99264,
+      "byteLength": 28288,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 127552,
+      "uri": "Felix_Reshet_Tzel.bin"
+    }
+  ]
+}

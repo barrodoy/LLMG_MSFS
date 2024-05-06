@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{a64dc2cf-a0e9-4186-af15-0b1971529eaf}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="FuelPipes_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="FuelPipes_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="FuelPipes_LOD2.gltf"/>
+    <LOD minSize="1.5625" ModelFile="FuelPipes_LOD3.gltf"/>
+  </LODS>
+</ModelInfo>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{4dca2961-d918-4bbb-a226-da7a65567f50}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="TrafficLight_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="TrafficLight_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="TrafficLight_LOD2.gltf"/>
+  </LODS>
+</ModelInfo>

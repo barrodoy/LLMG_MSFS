@@ -1,0 +1,169 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 21660,
+      "type": "VEC3",
+      "min": [
+        3.3167236028412136E-17,
+        0.0,
+        -1.2550899982452393
+      ],
+      "max": [
+        1.0606600046157837,
+        1.0448800325393677,
+        9.6692463758663418E-17
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 21660,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 21660,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 58782,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "occlusionTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "cagedwatertank"
+    },
+    {
+      "source": 1,
+      "name": "cagedwatertank_comp"
+    }
+  ],
+  "images": [
+    {
+      "uri": "cagedwatertank.png"
+    },
+    {
+      "uri": "cagedwatertank_comp.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 235128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 235128,
+      "byteLength": 259920,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 495048,
+      "byteLength": 259920,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 754968,
+      "byteLength": 173280,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 928248,
+      "uri": "CagedWaterTank.bin"
+    }
+  ]
+}

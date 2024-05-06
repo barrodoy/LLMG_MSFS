@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{1255e2cd-873c-435e-8c7a-b1dc58f61d32}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="KibuiBigHangar_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="KibuiBigHangar_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="KibuiBigHangar_LOD2.gltf"/>
+    <LOD minSize="1.5625" ModelFile="KibuiBigHangar_LOD3.gltf"/>
+  </LODS>
+</ModelInfo>

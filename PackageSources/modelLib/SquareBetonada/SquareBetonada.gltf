@@ -1,0 +1,179 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 617,
+      "type": "VEC3",
+      "min": [
+        3.5066604842233948E-17,
+        0.0,
+        -0.75800001621246338
+      ],
+      "max": [
+        0.84865999221801758,
+        0.80329000949859619,
+        6.4562472513723376E-17
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 617,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 617,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 2688,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "beton"
+    },
+    {
+      "source": 1,
+      "name": "beton_comp"
+    },
+    {
+      "source": 2,
+      "name": "beton_norm"
+    }
+  ],
+  "images": [
+    {
+      "uri": "beton.png"
+    },
+    {
+      "uri": "beton_comp.png"
+    },
+    {
+      "uri": "beton_norm.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 10752
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10752,
+      "byteLength": 7404,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18156,
+      "byteLength": 7404,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 25560,
+      "byteLength": 4936,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 30496,
+      "uri": "SquareBetonada.bin"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{444fc2cc-1d81-473f-ac74-8c2e39fadfcf}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="GAParkingSheds_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="GAParkingSheds_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="GAParkingSheds_LOD2.gltf"/>
+    <LOD minSize="1.5625" ModelFile="GAParkingSheds_LOD3.gltf"/>
+  </LODS>
+</ModelInfo>

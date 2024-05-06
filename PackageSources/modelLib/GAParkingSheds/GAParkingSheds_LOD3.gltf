@@ -1,0 +1,179 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node4",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 260,
+      "type": "VEC3",
+      "min": [
+        -0.029489999637007713,
+        0.0,
+        -25.0
+      ],
+      "max": [
+        10.02949047088623,
+        1.1342300176620483,
+        -0.11963000148534775
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 260,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 260,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 264,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 0.0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "gaparkingsheds"
+    },
+    {
+      "source": 1,
+      "name": "gaparkingsheds_comp"
+    },
+    {
+      "source": 2,
+      "name": "gaparkingsheds_norm"
+    }
+  ],
+  "images": [
+    {
+      "uri": "gaparkingsheds.png"
+    },
+    {
+      "uri": "gaparkingsheds_comp.png"
+    },
+    {
+      "uri": "gaparkingsheds_norm.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1056,
+      "byteLength": 3120,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4176,
+      "byteLength": 3120,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7296,
+      "byteLength": 2080,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9376,
+      "uri": "GAParkingSheds_LOD3.bin"
+    }
+  ]
+}

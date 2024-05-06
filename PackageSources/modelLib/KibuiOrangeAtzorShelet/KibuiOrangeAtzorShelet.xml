@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{49607abf-4a63-4a72-8516-7acf2ec27dd2}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="KibuiOrangeAtzorShelet_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="KibuiOrangeAtzorShelet_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="KibuiOrangeAtzorShelet_LOD2.gltf"/>
+    <LOD minSize="1.5625" ModelFile="KibuiOrangeAtzorShelet_LOD3.gltf"/>
+  </LODS>
+</ModelInfo>

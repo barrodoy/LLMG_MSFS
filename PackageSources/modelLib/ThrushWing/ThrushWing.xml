@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{f0a37579-fd27-49e4-9654-ed66bd527641}" version="1.1">
+  <LODS>
+    <LOD minSize="7.8125" ModelFile="ThrushWing_LOD0.gltf"/>
+    <LOD minSize="6.25" ModelFile="ThrushWing_LOD1.gltf"/>
+    <LOD minSize="3.125" ModelFile="ThrushWing_LOD2.gltf"/>
+  </LODS>
+</ModelInfo>
